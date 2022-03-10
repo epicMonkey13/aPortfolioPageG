@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: rgb(7, 8, 12); 
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: white;
+}
+
+#feature {
+  margin-top: 20px;
+}
+
+#featureBgImg {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  background-color: rgb(55 55 64 / 65%);
+  /* /* position: absol
+  left: 0;
+  bottom: 0;
+  margin: 0 0 50px 50px;
+  padding: 20px 20px 20px 20px; */
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 5%;
+}
+
+
+
+.btn {
+  margin: 20px;
+  width: 200px;
+  font-size: 20px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background: #c38b8b;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.hero {
+  position: relative;
+}
+
+#titleH1 {
+  font-size: 60px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.subHeading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.articleMain {
+  margin: 10px 110px 20px 110px;
+}
+
+#about-me {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#about-me-title {
+	font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-pic {
+  height: auto;
+  width: 100%;
+  margin: 15px;
+}
+
+.card {
+	background: white;
+	margin-bottom: 2em;	
+  flex: 0 1 calc(25% - 1em);
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.form {
+  flex: 1;
+
+}
+
+.sidebar {
+  border: 1px solid #000000;
+  background: #44355f;
+  flex: 0 1 250px;
+}
+
+a:link, i {
+  color: black;
+}
+.fa {
+font-size: 48px;
+margin: 5px;
+}
+
+.footer {
+  border-top: 1px solid gray;
+}
+
+.footerText {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+
