@@ -184,19 +184,48 @@ color: whitesmoke;
 }
 /* projects style end */
 
+/* form style start */
 .flex-container {
   display: flex;
 }
 
 .form {
   flex: 1;
+  background-color: #1c1a1e;
+}
 
+.form-title {
+  margin: 1rem 1rem;
+  color: white
+  ;
+}
+
+.form input, textarea {
+    margin-left: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btn {
+  display: block;
+  margin: 20px;
+  width: 140px;
+  font-size: 20px;
+  height: 60px;
+  border: 1px solid;
+  outline: none;
+  background: #171528;
+  color: #94e511f5;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .sidebar {
   border: 1px solid #000000;
-  background: #44355f;
   flex: 0 1 250px;
+  background: rgb(90 90 92);
 }
 
 a:link, i {
@@ -206,7 +235,7 @@ a:link, i {
 font-size: 48px;
 margin: 5px;
 }
-
+/* form style end */
 .footer {
   border-top: 1px solid gray;
 }
