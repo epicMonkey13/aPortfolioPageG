@@ -241,6 +241,69 @@ color: whitesmoke;
   margin: 1rem;
 }
 
+.balls {
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #414646,
+    #855b5b
+  );
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  margin-top: 50px;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+#ball1 {
+  left:27%;
+  animation-timing-function: linear;
+}
+#ball2 {
+  left:56%;
+  animation-timing-function: ease-out;
+}
+#ball3 {
+  left:47%;
+  animation-timing-function: ease-in;
+}
+
+#ball4 {
+  left: 30%;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 249px;
+  }
+}
+#red {
+  background: rgb(71, 40, 40);
+  left: 25%;
+  animation-timing-function: linear;
+}
+#blue {
+  background: rgb(65, 65, 121);
+  left: 50%;
+  animation-timing-function: ease-out;
+}
+#green {
+  background: rgb(9, 82, 116);
+  left: 75%;
+  animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+}
+
+@keyframes jump {
+  50% {
+    top: 10%;
+  }
+}
+
+
 a:link, i {
   color: black;
 }
