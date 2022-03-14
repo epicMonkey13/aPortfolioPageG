@@ -4,10 +4,12 @@
   padding: 0;
 }
 body {
-  background-color: rgb(7, 8, 12); 
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: #282828;
+  color: #ffffff;
+  background-color: darkslategray;
+  
+  /* background-position: right top; */
 }
 
 
@@ -15,15 +17,19 @@ body {
   width: 900px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background: white;
+  /* background-color: #171528; */
   border-radius: 5px;
+  background-image: url(img/gevorg-avetisyan-mTYRfrFVDCY-unsplash.jpg);
+  /* background-repeat: no-repeat; */
+  opacity: 0.9;
 }
 
 .social-icons-top {
   display: flex;
   flex-direction: row-reverse;
-  margin: 1rem;
   opacity: 0.5;
+  border-radius: 5px;
+  background-color: cyan;
 }
 
 /* hero style start */
@@ -66,9 +72,8 @@ body {
 
 .contact-btn {
   margin: 20px;
-  width: 140px;
+  padding: 10px;
   font-size: 20px;
-  height: 60px;
   border: 1px solid;
   outline: none;
   background: #171528;
@@ -134,6 +139,7 @@ body {
 /* projects style start */
 .projects {
   background-color: #171528;
+  border-radius: 5px;
 }
 .projects-title {
 text-align: center;
@@ -146,6 +152,7 @@ color: whitesmoke;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .portfolio-pic {
@@ -187,11 +194,14 @@ color: whitesmoke;
 /* form style start */
 .flex-container {
   display: flex;
+  opacity: 0.9;
 }
 
 .form {
   flex: 1;
   background-color: #1c1a1e;
+  margin: 1rem;
+  border-radius: 5px;
 }
 
 .form-title {
@@ -211,21 +221,24 @@ color: whitesmoke;
 .btn {
   display: block;
   margin: 20px;
-  width: 140px;
   font-size: 20px;
-  height: 60px;
   border: 1px solid;
   outline: none;
   background: #171528;
   color: #94e511f5;
   cursor: pointer;
   border-radius: 10px;
+  padding: 10px;
 }
 
+.btn:hover {background-color:black}
+
 .sidebar {
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   flex: 0 1 250px;
   background: rgb(90 90 92);
+  border-radius: 5px;
+  margin: 1rem;
 }
 
 a:link, i {
